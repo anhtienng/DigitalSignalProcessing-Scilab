@@ -105,20 +105,3 @@ mprintf("x(n)\tx(n)(quantized)\tLevel\tBinary sequence\n");
 for i = 1:fundamentalT
     mprintf("%.2f\t%.1f\t\t%d\t%s\n", sSignal(i), qSignal(i), level(i), binSq(i));
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
