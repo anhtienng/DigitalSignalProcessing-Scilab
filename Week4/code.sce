@@ -555,6 +555,3 @@ function draw_system (an, bm, opt)
     end
 endfunction
 draw_system(an, bm, 0)
-
-
-
