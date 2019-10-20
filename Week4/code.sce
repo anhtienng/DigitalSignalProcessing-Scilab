@@ -1,6 +1,3 @@
-an = [1.5 2 ]
-bm = [2 -3 5 7 ]
-
 function draw_system (an, bm, opt)
     loadXcosLibs();
     scs_m = scicos_diagram();
@@ -554,4 +551,8 @@ function draw_system (an, bm, opt)
         xcos(scs_m)
     end
 endfunction
+
+// test
+an = [1.5 2 ]
+bm = [2 -3 5 7]
 draw_system(an, bm, 0)
