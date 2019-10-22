@@ -113,21 +113,3 @@ plot_signal(x, 2, 1, "x(n)", "blue")
 get_even_component(x, n1)
 get_odd_component(x, n1)
 convolution(x, n1, h, n2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
